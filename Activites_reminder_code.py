@@ -22,7 +22,7 @@ def schedule(date):
     hour = date.hour
 
     # Remind for lunch+water time at 1 PM
-    if hour == 20 and is_notification_sent[hour] == 0:
+    if hour == 13 and is_notification_sent[hour] == 0:
         is_notification_sent[hour] = 1
         send_reminder("It's time for dinner and water!!")
 
