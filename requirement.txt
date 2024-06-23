@@ -1,0 +1,4 @@
+flake8==4.0.1
+pytest-mock==3.6.1
+notify-py
+pyttsx3
